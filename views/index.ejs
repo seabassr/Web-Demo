@@ -1,0 +1,78 @@
+<%- include('layouts/header.ejs') %>
+
+    <!-- Start of carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/carousel/slide1.png" class="d-block w-100" alt="slide1">
+            </div>
+            <div class="carousel-item">
+            <img src="img/carousel/slide2.png" class="d-block w-100" alt="slide2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End of carousel -->
+
+    <br>
+
+    <!-- Start of gifs -->
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/gif/bitC.gif" alt="bit coin" width="40%">
+            </div>
+            <div class="col-2">
+                <img src="img/gif/bitC.gif" alt="bit coin" width="40%">
+            </div>
+            <div class="col-4">
+                <img src="img/gif/bitP.gif" alt="player one" width="60%">
+            </div>
+            <div class="col-2">
+                <img src="img/gif/bitC.gif" alt="bit coin" width="40%">
+            </div>
+            <div class="col-2">
+                <img src="img/gif/bitC.gif" alt="bit coin" width="40%">
+            </div>
+        </div>
+    </div>
+    <!-- End of gifs -->
+
+    <hr>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/me/me1.png" alt="bit coin" width="60%">
+            </div>
+            <div class="col-8 text-center">
+                <h1>HELLO, WORLD!</h1>
+                <br>
+                <p>Hello user, welcome to my website!</p>
+            </div>
+            <div class="col-2">
+                <img src="img/me/me2.png" alt="bit coin" width="60%">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <br>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <video poster="img/carousel/vid.png" controls><source src="vid/me.mov" type="video/mp4"></video>
+            </div>
+        </div>
+    </div>
+    
+<%- include('layouts/footer.ejs') %>
